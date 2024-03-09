@@ -1,0 +1,23 @@
+.custom-bg-color{
+    background-color: #585094 !important;
+}
+
+.bg-secondary{
+    background-color: #EBEBEB !important;
+}
+.mx-3 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+}
+.btn-primary{
+    background-color:rgb(106, 171, 178)!important ;
+   
+    
+}
+.col-sm-2{
+    width: 19.8%;
+}
+
+#search-btn{
+    background-color: rgb(106, 171, 178)!important;
+}
