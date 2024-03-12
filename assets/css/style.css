@@ -1,5 +1,17 @@
+body{
+    min-height: 100%;
+    max-width: 100%;
+    line-height: 1;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 100%;
+}
 .custom-bg-color{
     background-color: #585094 !important;
+    width: 100% !important;
 }
 
 .bg-secondary{
@@ -17,7 +29,28 @@
 .col-sm-2{
     width: 19.8%;
 }
-
+.card{
+    background-color: rgb(125, 195, 203);
+}
 #search-btn{
     background-color: rgb(106, 171, 178)!important;
 }
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones  */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones  */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
