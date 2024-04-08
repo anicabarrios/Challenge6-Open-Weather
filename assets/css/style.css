@@ -6,8 +6,9 @@ body{
 }
 header{
     display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 .custom-bg-color{
     background-color: #585094 !important;
@@ -24,10 +25,21 @@ header{
 .btn-primary{
     background-color:rgb(106, 171, 178)!important ;
    
-    
 }
-.col-sm-2{
-    width: 19.8%;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem; 
+  margin-left: -0.5rem;  
+}
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%; 
+}
+
+.col-9 {
+  flex: 0 0 75%; 
+  max-width: 75%; 
 }
 .card{
     background-color: rgb(125, 195, 203);
@@ -35,22 +47,33 @@ header{
 #search-btn{
     background-color: rgb(106, 171, 178)!important;
 }
+/* Medium screens */
 @media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
+  .col-3,
+  .col-9 {
+      flex: 0 0 100%; 
+      max-width: 100%; 
   }
-  
-  /* Large smartphones  */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
+}
+
+/* Small tablets */
+@media screen and (max-width: 768px) {
+  .col-3,
+  .col-9 {
+      flex: 0 0 100%; 
+      max-width: 100%; 
   }
-  
-  /* Small smartphones  */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
+}
+
+/* Phones */
+@media screen and (max-width: 576px) {
+  .col-3,
+  .col-9 {
+      flex: 0 0 100%; 
+      max-width: 100%; 
   }
+  #dashboard{
+    margin-left: 1rem;
+  }
+
+}
