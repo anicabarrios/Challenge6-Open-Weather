@@ -6,40 +6,24 @@ body{
 }
 header{
     display: flex;
-    display: flex;
+    flex : 1 0 100%;
     justify-content: center; 
     align-items: center; 
 }
 .custom-bg-color{
     background-color: #585094 !important;
-    width: 100% !important;
 }
 
 .bg-secondary{
     background-color: #EBEBEB !important;
 }
-.mx-3 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
-}
+
 .btn-primary{
     background-color:rgb(106, 171, 178)!important ;
    
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -0.5rem; 
-  margin-left: -0.5rem;  
-}
-.col-3 {
-  flex: 0 0 25%;
-  max-width: 25%; 
-}
-
-.col-9 {
-  flex: 0 0 75%; 
-  max-width: 75%; 
+.mx-3 {
+    margin-left: 0.5rem !important;
 }
 .card{
     background-color: rgb(125, 195, 203);
@@ -49,31 +33,26 @@ header{
 }
 /* Medium screens */
 @media screen and (max-width: 992px) {
-  .col-3,
-  .col-9 {
-      flex: 0 0 100%; 
-      max-width: 100%; 
-  }
+
 }
 
 /* Small tablets */
 @media screen and (max-width: 768px) {
-  .col-3,
-  .col-9 {
-      flex: 0 0 100%; 
-      max-width: 100%; 
-  }
+  
+
+ 
 }
 
 /* Phones */
 @media screen and (max-width: 576px) {
-  .col-3,
-  .col-9 {
-      flex: 0 0 100%; 
-      max-width: 100%; 
-  }
   #dashboard{
-    margin-left: 1rem;
+    margin-right: 0.5rem;
   }
-
+header{
+  width: 100% !important;
+  
+}
+/* button{
+  margin-left: none !important;
+} */
 }
