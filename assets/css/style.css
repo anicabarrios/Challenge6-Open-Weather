@@ -1,36 +1,39 @@
-body{
+body {
     min-height: 100%;
     max-width: 100%;
     line-height: 1;
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.custom-bg-color{
+.custom-bg-color {
     background-color: #585094 !important;
 }
 
-.bg-secondary{
+.bg-secondary {
     background-color: #EBEBEB !important;
 }
 
-.btn-primary{
-    background-color:rgb(106, 171, 178)!important ;
-   
+.btn-primary {
+    background-color: rgb(106, 171, 178) !important;
+
 }
+
 .mx-3 {
     margin-left: 0.5rem !important;
 }
-.card{
+
+.card {
     background-color: rgb(125, 195, 203);
 }
-#search-btn{
-    background-color: rgb(106, 171, 178)!important;
+
+#search-btn {
+    background-color: rgb(106, 171, 178) !important;
 }
 
 
 /* Phones */
 @media screen and (max-width: 576px) {
-  #dashboard{
-    margin-right: 0.5rem! important;
-  }
+    #dashboard {
+        margin-right: 0.5rem ! important;
+    }
 }
