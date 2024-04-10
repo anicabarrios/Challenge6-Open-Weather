@@ -6,7 +6,7 @@ The Weather Dashboard is a web application that provides travelers with real-tim
 
 ![Weather Dashboard Screenshot](/assets/images/screenshot-weather.png)
 
-[Click here to view the live application.](YourLiveApplicationURL)
+[Click here to view the live application.](https://anicabarrios.github.io/Weather-Dashboard/)
 
 ## Table of Contents
 
