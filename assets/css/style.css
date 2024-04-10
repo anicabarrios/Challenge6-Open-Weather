@@ -4,12 +4,7 @@ body{
     line-height: 1;
     font-family:Arial, Helvetica, sans-serif; 
 }
-header{
-    display: flex;
-    flex : 1 0 100%;
-    justify-content: center; 
-    align-items: center; 
-}
+
 .custom-bg-color{
     background-color: #585094 !important;
 }
@@ -31,28 +26,11 @@ header{
 #search-btn{
     background-color: rgb(106, 171, 178)!important;
 }
-/* Medium screens */
-@media screen and (max-width: 992px) {
 
-}
-
-/* Small tablets */
-@media screen and (max-width: 768px) {
-  
-
- 
-}
 
 /* Phones */
 @media screen and (max-width: 576px) {
   #dashboard{
-    margin-right: 0.5rem;
+    margin-right: 0.5rem! important;
   }
-header{
-  width: 100% !important;
-  
-}
-/* button{
-  margin-left: none !important;
-} */
 }
